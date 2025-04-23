@@ -1,0 +1,37 @@
+Operador    Python  Java    Descripción
+
+AND         and     &&      Verdadero si ambos son verdaderos
+
+OR          or      ||       Verdadero si uno es verdadero
+
+NOT         not     !       Invierte el valor lógico
+
+
+
+
+Tarea
+
+Tarea 1
+Pide al usuario su edad y si es estudiante (true/false) y muestra un mensaje:
+
+Si es mayor de edad y estudiante: "Puedes aplicar al programa"
+
+En caso contrario: "No cumples los requisitos"
+---------------
+Tarea 2
+
+Crear un programa que reciba:
+
+    Nombre
+
+    Edad
+
+    Nacionalidad
+
+Y que indique:
+
+    Si es mayor de edad
+
+    Si puede votar (mayor de 18 y nacionalidad = "guatemalteca")
+
+    Subir a GitHub como clase-3.
