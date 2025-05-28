@@ -10,7 +10,7 @@ public class tarea1 {
         System.out.println("Edad: + ");
         int edad = sc.nextInt();
 
-        if (estudiante==true && edad>=18) {
+        if (estudiante && edad>=18) {
             System.out.println("Puedes aplicar al programa");  
         } else {
             System.out.println("Estas bien muerto");

@@ -16,6 +16,7 @@ public class tarea2 {
             System.out.println("no puedes votar");
         }
        
+       
         
 
 
