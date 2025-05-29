@@ -12,8 +12,8 @@ numero2 = float(input("Introduce un numero: "))
 
 operacion= input("Que operación quieres realizar (suma,resta,multiplicación o división):")
 
-resultado = 0
 
+resultado = 0
 if operacion == 'suma':
     resultado = numero1 + numero2
 elif operacion == 'resta':
@@ -40,28 +40,30 @@ while True:
     numero1 = int(input("Ingrese el primer numero: "))
     numero2 = int(input("Ingrese el segundo numero: "))
     print(numero1 + numero2)
-    break
+    
   elif operacion == '2':
     print("Eligio resta")
     numero1 = int(input("Ingrese el primer numero: "))
     numero2 = int(input("Ingrese el segundo numero: "))
     print(numero1 - numero2)
-    break
+    
   elif operacion == '3':
     print("Eligio multiplicacion")
     numero1 = int(input("Ingrese el primer numero: "))
     numero2 = int(input("Ingrese el segundo numero: "))
     print(numero1 * numero2)
-    break
+    
   elif operacion == '4':
     print("Eligio division")
     numero1 = int(input("Ingrese el primer numero: "))
     numero2 =int(input("Ingrese el segundo numero: "))
-    if numero2 == 0:
-      numero2 = int(input("No se puede dividir por 0 ingrese otro numero"))
-    elif numero2 > 0:
-      print(numero1/numero2)
-      break
+    while  numero2 == 0:
+        numero2 = int(input("No se puede dividir por 0 ingrese otro numero"))
+        if numero2 > 0:
+         break
+    
+    print(numero1/numero2)
+    
   elif operacion == '5':
     print("Saliendo del programa")
     break

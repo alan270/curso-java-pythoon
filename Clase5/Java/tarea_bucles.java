@@ -27,23 +27,23 @@ public class tarea_bucles {
                 switch (operacion) {
                     case 1:
                         System.out.println("Resultado de la suma:" + (numero1 + numero2));
-                        break;
+                        continue;
                     case 2:
                         System.out.println("Resultado de la resta:" + (numero1 - numero2));
-                        break;
+                        continue;
                     case 3:
                         System.out.println("Resultado de la multiplicacion:" + (numero1 * numero2));
-                        break;
+                        continue;
                     case 4:
                         if (numero2 !=0){
                         System.out.println("Resultado de la division:" + (numero1 / numero2));
                         } else {
                             System.out.println("Error: No se puede dividir por cero");
                         }
-                        break;
+                        continue;
                 
                     default:
-                        break;
+                        continue;
                 }          
 
             } else if (operacion == 5){
