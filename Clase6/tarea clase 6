@@ -1,0 +1,64 @@
+1. Hacer un programa que imprima la tabla de multiplicar del 1 al 10 usando for.
+
+2. Crear una calculadora simple con while que repita operaciones (suma,resta,multiplicación) y division hasta que el usuario decida salir.
+
+3. Subir ambos ejercicios a GitHub como clase-5
+
+________________________________________
+
+1. Crear una función que reciba una lista de números y retorne la suma total.
+
+2. Crear un diccionario o mapa que almacene información de un estudiante y mostrar sus datos.
+
+3. Subir ambos ejercicios a GitHub en el repositorio clase-6
+
+
+a = [2,3,4,5] = 14
+
+______________________________________________________________________--
+python
+
+Crear un programa que:
+
+Solicite el nombre, edad, y ciudad de una persona.
+
+Clasifique su etapa de vida: niño, adolescente, adulto, adulto mayor.
+
+Permita ingresar una lista de 5 calificaciones y calcule el promedio.
+
+Use una función para mostrar un saludo personalizado con su nombre y etapa de vida.
+
+Guarde todos los datos en un diccionario y los imprima uno por uno.
+
+Pregunte si desea continuar (sí/no). Si no, salir con break.
+----------------
+
+java:
+
+Crea un programa que gestione un menú de opciones para una pequeña agenda personal. El programa debe:
+
+Mostrar un menú con opciones:
+
+Agregar contacto
+
+Listar contactos
+
+Buscar por nombre
+
+Salir
+
+Al agregar un contacto, solicitar: nombre, edad, email y ciudad.
+
+Guardar los contactos usando una lista de mapas (ArrayList<Map<String, String>>)
+
+Validar edad con condiciones (if/else) y clasificar la etapa de vida.
+
+Usar funciones para:
+
+Mostrar el menú
+
+Agregar contacto
+
+Mostrar contacto(s)
+
+El programa debe repetir el menú hasta que el usuario decida salir.
