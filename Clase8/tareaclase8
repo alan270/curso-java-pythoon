@@ -1,0 +1,21 @@
+Tarea Python
+
+1. Crea una jerarquía de clases:
+
+Clase base: Vehiculo con método moverse()
+
+Clases hijas: Carro, Bicicleta, Avion
+
+Cada una sobrescribe moverse() con su propia implementación
+
+Instanciar objetos y llamar moverse() desde una lista o arreglo.
+
+Tarea Java
+
+1. Crear una clase base Empleado con nombre y salario.
+
+2. Crear clases hijas Desarrollador y Gerente que sobrescriban un método trabajar().
+
+3. Usar getters y setters para proteger el salario.
+
+Subir el código a GitHub en el repositorio clase-8.
