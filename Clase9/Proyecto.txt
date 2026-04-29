@@ -1,0 +1,13 @@
+🧩 Descripción del Proyecto python/java
+Vamos a crear una Agenda de Contactos, donde puedas:
+
+1. Agregar un nuevo contacto (nombre, teléfono, correo). Clase contacto /Constructor/
+
+2. Mostrar todos los contactos guardados. Imprimir todos los atributos
+
+3. Buscar contacto por nombre. Crear un menu con un while true con opción 
+En python usar if_else y en java un swich/case
+
+4. Eliminar un contacto.
+
+5. Salir del programa.

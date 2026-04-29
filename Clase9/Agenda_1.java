@@ -18,7 +18,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class Agenda {
+public class Agenda_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Map<String, String>> contactos = new ArrayList<>();
@@ -70,7 +70,8 @@ public class Agenda {
         System.out.print("Nombre: ");
         String nombre = sc.nextLine();
         System.out.print("telefono: ");
-        int telefono = Integer.valueOf(sc.nextLine());
+        //int telefono = Integer.valueOf(sc.nextLine());
+        String telefono = sc.nextLine();
         System.out.print("Email: ");
         String email = sc.nextLine();
        
@@ -145,3 +146,22 @@ public class Agenda {
     
 
 }
+/*              case "4":
+                    System.out.print("Nombre a eliminar: ");
+                    String deleteName = sc.nextLine();
+                    Iterator<Contact> iterator = contacts.iterator();
+                    while (iterator.hasNext()) {
+                        Contact c = iterator.next();
+                        if (c.name.equalsIgnoreCase(deleteName)) {
+                            iterator.remove();
+                        }
+                    }
+                    break;
+
+                case "5":
+                    System.out.println("¡Adiós!");
+                    return;
+
+                default:
+                    System.out.println("Opción no válida");
+                    break; */
